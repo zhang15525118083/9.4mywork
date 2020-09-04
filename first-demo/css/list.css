@@ -1,0 +1,15 @@
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, pre, table, form {
+    margin: 0;
+    padding: 0;
+}
+ul, ol, li {
+    list-style: none;
+}
+a {
+    color: #333333;
+    text-decoration: none;
+}
+body {
+    background-color: #fff;
+    font: 16px/1.5 微软雅黑, Simsun, arial;
+}
