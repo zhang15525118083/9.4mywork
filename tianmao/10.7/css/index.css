@@ -1,0 +1,202 @@
+
+/*
+ 搜索框
+*/
+.search{
+    width:100%;height:50px;background: red;
+    position: fixed;text-align: center;
+    line-height: 50px;left:0;
+    z-index:999;top:-50px;
+    transition: top .5s linear;
+}
+
+/*
+
+  侧边导航
+*/
+
+.floor-nav{
+    width:50px;height:400px;position: fixed;
+    left:50px;top:0;bottom: 0;
+    margin: auto;border:1px solid #000;
+    transform: scale(0,0);
+    opacity: 0;
+    transition: transform 1s ease,opacity 1s ease;
+    transform-origin: left bottom;
+}
+.floor-nav li{
+    width:50px;height:50px;border-bottom: 1px solid #000;
+    box-sizing: border-box;
+    text-align: center;line-height: 50px;cursor: pointer;
+}
+.floor-nav  .back-top{
+    border:none;
+}
+/*
+  设置轮播图外层容器
+*/
+.container{
+    width:100%;height:500px;
+
+}
+
+/*内宽*/
+.inner-box{
+    width:982px;height:100%;
+    margin: auto;border:1px solid red;
+    position: relative;
+
+}
+
+/*设置轮播图*/
+.wheel-win{
+    width:100%;height:100%;position: relative;
+}
+.wheel-box{
+    width:100%;height:100%;
+    position: absolute;left:0;top:0;
+}
+.wheel-box li{
+    width:100%;height:100%;
+    position: absolute;left:0;top:0;
+    transition: opacity 1s ease;
+}
+.shops{
+    width:220px;height:470px;
+    position: absolute;
+    right:0;top:10px;
+    display: none;
+
+}
+.shops div img{
+    width:100%;
+}
+.shops .shops-top{
+    width:100%;height:50%;
+    margin-bottom: 10px;
+    background: rgba(255,255,255,.9);
+}
+.shops .shops-bottom{
+    width:100%;height:50%;
+    background: rgba(255,255,255,.9);
+
+}
+
+.wheel-box li a{
+    display: block;
+    position: absolute;
+    left:0;top:0;
+    width:100%;height:100%;
+}
+.wheel-box li:nth-child(1)>a{
+    background: url("../images/1.jpg") no-repeat center center;
+}
+.wheel-box li:nth-child(2)>a{
+    background: url("../images/2.jpg") no-repeat center center;
+}
+.wheel-box li:nth-child(3)>a{
+    background: url("../images/3.jpg") no-repeat center center;
+}
+.wheel-box li:nth-child(4)>a{
+    background: url("../images/4.jpg") no-repeat center center;
+}
+
+/*轮播图按钮*/
+.wheel-btns{
+    width:145px;height:5px;
+    position: absolute;
+    bottom: 40px;
+    left:0;right: 0;margin: auto;
+    z-index: 2;
+}
+.wheel-btns li{
+    width:25px;height:30px;margin:0 5px;
+    cursor: pointer;float: left;background: rgba(0,0,0,.3);
+}
+
+@media screen  and  (min-width: 1230px){
+    header {
+        width: 1230px;
+    }
+    .inner-box{
+        width: 1230px;
+    }
+    .shops{
+        display: block;
+    }
+}
+
+/*侧导航*/
+nav{
+    width:200px;height:530px;
+    position: absolute;
+    bottom: 0;
+    left:0;
+    z-index:2;
+}
+nav h3{
+    background: red;
+    width:100%;height:30px;
+    font-weight: normal;
+    color:#fff;
+
+;
+}
+nav h3 i{
+    margin:0 5px;
+}
+nav .menu{
+    width:100%;height:500px;
+    background: rgba(0,0,0,.4);
+    color:#fff;font-size:14px;
+    position: relative;
+
+}
+nav .menu .menu-list{
+    width:100%;height:6.25%;
+    line-height: 30px;
+}
+nav .menu .menu-list i{
+    margin:0 5px;
+}
+
+.cons{
+    width:500px;height:500px;
+    position: absolute;
+    left:200px;top:0;
+    z-index:2;overflow: hidden;
+    display: none;
+}
+.cons .cons-list{
+    width:100%;height:100%;
+    display: none;
+    background: #fff;
+    color:#000;
+}
+
+/*
+  品牌logo
+*/
+.brand{
+    width:1230px;height:300px;margin:auto;margin-top: 100px;
+    border: 1px solid #000;
+}
+
+/*
+ 楼层
+*/
+
+.floor-list{
+    width:1230px;height:400px;margin:auto;margin-top: 100px;
+    border: 1px solid #000;
+}
+
+
+/*
+  底部
+*/
+
+footer{
+
+    width:100%;height:500px;background: #333;margin-top: 100px;
+}
