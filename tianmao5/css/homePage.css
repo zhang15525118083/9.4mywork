@@ -1,0 +1,125 @@
+.second-ad{
+    width:1230px; height: auto; margin:auto; 
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.ad-img{
+    width: 214px; height: 25px; background: url(../images/TB1R.slXGagSKJjy0FgXXcRqFXa-428-50.png);background-size: 100%;
+}
+.second-ad .ad-content{
+    margin-top: 12px;
+}
+.ad-content::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.second-ad .ad-content .ad-content-left{
+    width: 235px; height: auto;   float: left;
+}
+.second-ad .ad-content .ad-content-left .ad-content-left-one,.ad-content-left-two{
+    width: 235px; height: 300px; 
+}
+.second-ad .ad-content .ad-content-left .ad-content-left-one{
+    background:url(../images/TB1fQ1VeMoQMeJjy0FpXXcTxpXa-235-301.png); background-size: 100%;
+    position: relative;
+    margin-bottom: 12px;
+}
+.mengban{
+    width: 235px; height: 300px;  background:rgb(255, 255, 255,0.4)  ;display: none; position: absolute;
+}
+.mengban2{
+    width: 235px; height: 300px;  background:rgb(255, 255, 255,0.4)  ;display: none; position: absolute;
+    border:1px solid #FF0036
+}
+.second-ad .ad-content .ad-content-left .ad-content-left-one:hover .mengban{
+    display: block;
+}
+.second-ad .ad-content .ad-content-left .ad-content-left-two{
+    background: url(../images/TB1xvaReMoQMeJjy1XaXXcSsFXa-235-301.png); background-size: 100%;
+}
+.left-one-word{
+    width: 218px; height: 64px; position: absolute; bottom: 20%; background:rgb(0,0,9,0.4);
+}
+.left-one-word .one-word-left{
+    width: 70px; height: 64px; font-size: 18px; color: #fff; text-align: center; padding-top: 6px; box-sizing: border-box;
+    background: rgb(0,0,9);  float: left;
+}
+.left-one-word .one-word-right{
+    width: 128px; height: 64px; font-size: 18px; color: #fff; float: left; box-sizing: border-box; padding:6px 0 0 14px;
+}
+.left-one-icon{
+    width: 235px; height: 60px;  position: absolute; bottom: 0;
+}
+.left-one-icon img{
+    width: 32px; height: 32px; position: absolute; bottom: 14px; right: 14px;
+}
+.second-ad .ad-content .ad-content-right{
+    width:995px; height: auto; float: left;
+}
+.second-ad .ad-content .ad-content-right  .content-right-div{
+    width:235px; height: 300px; float: left; margin:0 0 12px 12px;
+    background-color: #fff;  
+}
+.content-right-first:hover .mengban2{
+    display: block;
+}
+
+.content-right-everyone:hover .mengban2{
+    display: block;
+}
+
+
+.second-ad .ad-content .ad-content-right .content-right-first{
+    position: relative;
+
+}
+.right-first-title{
+    font-size: 18px;color: #000; position: absolute; top:20px; left: 25px;
+}
+.right-first-subtitle{
+    font-size: 14px; color:#7a45e5; position: absolute; top: 49px; left: 25px;
+}
+.right-first-img{
+    width: 170px; height: 170px; margin: 90px 33px 42px 32px; background: url(../images/按摩仪.jpg); background-size: 100%;
+}
+.right-everyone-img{
+    width: 185px; height: 185px; 
+    margin: 25px 25px 0;
+}
+.right-img-one{
+    background: url(../images/表.jpg); background-size: 100%;
+}
+.right-img-two{
+    background: url(../images/女孩.jpg); background-size: 100%;
+}
+.right-img-three{
+    background: url(../images/书.jpg); background-size: 100%;
+}
+.right-img-four{
+    background: url(../images/主机.jpg); background-size: 100%;
+}
+.right-img-five{
+    background: url(../images/洗发露.jpg); background-size: 100%;
+}
+.right-img-six{
+    background: url(../images/衬衫.jpg); background-size: 100%;
+}
+.right-img-seven{
+    background: url(../images/祛痘.jpg); background-size: 100%;
+}
+.right-everyone-title{
+    width: 135px; height: 40px;
+    font-size: 14px;
+    color: #333;
+    line-height: 20px;
+    overflow: hidden;
+    margin: 8px auto;
+}
+.right-everyone-subtitle{
+    width: 235px; height: 18px;font-size: 18px;
+    color: #FF0036;
+    line-height: 18px;
+    margin: 10px auto;
+    text-align: center;
+}
